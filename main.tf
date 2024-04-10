@@ -16,7 +16,6 @@ terraform {
 
 provider "azurerm" {
   features {}
-  skip_provider_registration = true
 }
 
 resource "random_string" "uniquestring" {
